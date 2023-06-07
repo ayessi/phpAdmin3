@@ -1,0 +1,52 @@
+.tabel4 {
+  font-family: Sans-Serif;
+  color: #444;
+  border-collapse: collapse;
+  width: 68%;
+  border: 1px solid #7997ff;
+  margin-top: 20px;
+  margin-left: 265px;
+  font-size: 10px;
+}
+
+.tabel4 tr th {
+  background: #2763ff;
+  color: #fff;
+  font-weight: normal;
+}
+
+.tabel4,
+th,
+td {
+  padding: 8px 20px;
+  text-align: center;
+}
+
+.tabel4 tr:nth-child(even) {
+  background: #cedcff;
+}
+
+.tabel4 tr:nth-child(2n + 1) {
+  background: #7198ff;
+}
+
+.button4 {
+  font-family: sans-serif;
+  font-size: 15px;
+  background: #b4b4b4;
+  color: white;
+  border: white 3px solid;
+  border-radius: 5px;
+  padding: 4px 20px;
+  margin-top: 170px;
+  margin-left: 270px;
+}
+
+.button4:hover {
+  opacity: 0.9;
+}
+
+.foto4 {
+  width: 50px;
+  height: 50px;
+}

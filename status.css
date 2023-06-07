@@ -1,0 +1,55 @@
+.main6 {
+  width: 600px;
+  margin: 90px auto;
+  background-color: #e8e8e8;
+  box-shadow: 0 0 9px black;
+  margin-left: 300px;
+}
+
+.header6 {
+  height: 50px;
+  background-color: #0030ff;
+  margin: 15px auto;
+  text-align: center;
+  padding-top: 15px;
+  color: black;
+  border: 1.5px solid;
+}
+
+h3:hover {
+  color: white;
+  text-shadow: 3px 3px 4px black;
+}
+
+.button6 {
+  font-family: sans-serif;
+  font-size: 15px;
+  background: #2763ff;
+  color: black;
+  border: black 0px solid;
+  padding: 5px 40px;
+}
+
+.button6:hover {
+  opacity: 0.9;
+}
+
+.kiri6 {
+  font-size: 80%;
+  padding-left: 20px;
+  line-height: 50px;
+}
+
+.kanan6 {
+  font-size: 50%;
+  padding-left: 260px;
+  line-height: 27px;
+  margin-top: -440px;
+}
+
+.klm6 {
+  width: 40%;
+  margin: -23px;
+  float: right;
+  margin-right: 190px;
+}

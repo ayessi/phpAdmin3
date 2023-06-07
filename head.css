@@ -1,0 +1,186 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+          body,
+          html {
+            font-size: 20px;
+            height: 100%;
+            position: relative;
+          }
+          
+          .clearfix:after {
+            content: "";
+            display: block;
+            clear: both;
+          }
+          
+          a {
+            color: #fff;
+            text-decoration: none;
+          }
+          
+          header {
+            height: 50px;
+            width: 100%;
+            background-color: #274c6b;
+            display: none;
+          }
+          
+          .gambar {
+            width: 60%;
+            margin-top: 70px;
+            margin-left: 40px;
+          }
+          
+          .sidebar {
+            width: 215px;
+            background-color: #000cff;
+            position: fixed;
+            top: 0px;
+            left: 0;
+            bottom: 0;
+          }
+          
+          .sidebar nav > a {
+            font-size: 150%;
+            display: inline-block;
+            padding: 30px 0px;
+            padding-left: 30px;
+            opacity: 0.7;
+            transition: all 0.2s;
+          }
+          .sidebar nav > a:hover {
+            opacity: 1;
+          }
+          
+          .sidebar nav a span {
+            font-weight: 300;
+          }
+          
+          .sidebar nav ul {
+            list-style: none;
+          }
+          
+          .sidebar nav ul li {
+            font-size: 70%;
+            padding: 7px 0;
+            text-align: center;
+            border-bottom: 3px solid #111111;
+            background-color: #cecece;
+          }
+          
+          .sidebar nav ul li:nth-child(1):hover {
+            background-color: #009eff;
+          }
+          
+          .sidebar nav ul li:nth-child(1).active {
+            background-color: #009eff;
+          }
+          
+          .sidebar nav ul li:nth-child(2):hover {
+            background-color: #009eff;
+          }
+          
+          .sidebar nav ul li:nth-child(2).active {
+            background-color: #009eff;
+          }
+          
+          .sidebar nav ul li:nth-child(3):hover {
+            background-color: #009eff;
+          }
+          
+          .sidebar nav ul li:nth-child(3).active {
+            background-color: #009eff;
+          }
+          
+          .sidebar nav ul li a {
+            color: #000000;
+          }
+          
+          .sidebar nav ul li:hover a {
+            color: #fff;
+          }
+          
+          .navig {
+            height: 180px;
+            background: #000cff;
+            margin-top: -40px;
+          }
+          
+          .Rakgh {
+            font-size: 80%;
+            padding-left: 220px;
+            padding-top: 130px;
+            color: #ffffff;
+          }
+          
+          .Rakgh ul {
+            float: right;
+            font-size: 100%;
+            margin: -35px;
+            list-style: none;
+            margin-right: 50px;
+            position: relative;
+          }
+          
+          .logout {
+            width: 2%;
+            margin: -40px;
+            float: right;
+            margin-right: 14px;
+          }
+          .tabel {
+            font-family: Sans-Serif;
+            color: #444;
+            border-collapse: collapse;
+            width: 68%;
+            border: 1px solid #7997ff;
+            margin-top: 20px;
+            margin-left: 265px;
+            font-size: 10px;
+          }
+          
+          .tabel tr th {
+            background: #2763ff;
+            color: #fff;
+            font-weight: normal;
+          }
+          
+          .tabel,
+          th,
+          td {
+            padding: 8px 20px;
+            text-align: center;
+          }
+          
+          .tabel tr:nth-child(even) {
+            background: #cedcff;
+          }
+          
+          .tabel tr:nth-child(2n + 1) {
+            background: #7198ff;
+          }
+          
+          .button {
+            font-family: sans-serif;
+            font-size: 15px;
+            background: #b4b4b4;
+            color: white;
+            border: white 3px solid;
+            border-radius: 5px;
+            padding: 4px 20px;
+            margin-top: 170px;
+            margin-left: 270px;
+          }
+          
+          .button:hover {
+            opacity: 0.9;
+          }
+          
+          .fito {
+            width: 50px;
+            height: 50px;
+          }
+          
